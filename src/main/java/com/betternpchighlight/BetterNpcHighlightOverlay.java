@@ -246,7 +246,7 @@ public class BetterNpcHighlightOverlay extends Overlay
 							width = plugin.turboTileWidth;
 						}
 
-						Polygon tilePoly = Perspective.getCanvasTileAreaPoly(client, centerLp, n.size);
+						Polygon tilePoly = Perspective.getCanvasTileAreaPoly(client, lp, n.size);
 						if (tilePoly != null)
 						{
 							renderPoly(graphics, outlineColor, fillColor, outlineColor.getAlpha(), fillColor.getAlpha(), tilePoly, width, true);
